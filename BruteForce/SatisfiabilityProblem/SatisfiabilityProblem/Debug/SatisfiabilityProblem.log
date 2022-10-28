@@ -1,0 +1,25 @@
+﻿  Main.cpp
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\Headers\dictionary.h(43,11): warning C4018: '>': signed/unsigned mismatch
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\Headers\dictionary.h(42): message : while compiling class template member function 'T Dictionary<T>::Get(unsigned int)'
+          with
+          [
+              T=bool
+          ]
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\src\Main.cpp(100): message : see reference to function template instantiation 'T Dictionary<T>::Get(unsigned int)' being compiled
+          with
+          [
+              T=bool
+          ]
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\src\Main.cpp(53): message : see reference to class template instantiation 'Dictionary<bool>' being compiled
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\Headers\dictionary.h(60,11): warning C4018: '>': signed/unsigned mismatch
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\Headers\dictionary.h(59): message : while compiling class template member function 'void Dictionary<bool>::Set(unsigned int,T)'
+          with
+          [
+              T=bool
+          ]
+D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\SatisfiabilityProblem\src\Main.cpp(53): message : see reference to function template instantiation 'void Dictionary<bool>::Set(unsigned int,T)' being compiled
+          with
+          [
+              T=bool
+          ]
+  SatisfiabilityProblem.vcxproj -> D:\Drive other content\ali\Advanced programing\AdvancedAlgo\Ex1\SatisfiabilityProblem\Debug\SatisfiabilityProblem.exe
